@@ -1,0 +1,5 @@
+//Em C++, as listas, pilhas e filas são manipuladas com a STL (Standard Template Library). São utilizadas std::list para listas encadeadas, std::stack para pilhas (com operações push, pop, top) e std::queue para filas (com push, pop, front). Há também std::deque e std::priority_queue para casos específicos.
+//
+//Em Python, a estrutura list é versátil e pode ser usada como lista e pilha (append, pop). Para filas, o ideal é usar collections.deque, que oferece inserções e remoções eficientes nas extremidades (append, popleft). Também existe o módulo queue com Queue, LifoQueue e PriorityQueue.
+//
+//Em MATLAB, listas são simuladas com arrays ou cell arrays. Pilhas e filas podem ser implementadas manualmente com vetores e funções como end, 1:end-1, ou usando objetos do tipo containers.Map ou estruturas mais avançadas em toolboxes específicas.
