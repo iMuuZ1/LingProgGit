@@ -21,7 +21,17 @@ int main() {
 
 
 
-    std::vector<std::vector<int>> matrix(rows, std::vector<int>(cols));
+    std::vector<int> vector(array, array + sizeof(array) / sizeof(int));
+        std::vector<std::vector<int>> matrix = {
+        {20, 10, 50},
+        {40, 30, 60},
+        {70, 80, 90}
+    };
+
+    // Print vector elements
+    for (size_t i = 0; i < vector.size(); ++i) {
+        std::cout << "Element " << i << ": " << vector[i] << std::endl;
+    }
 
 
 
