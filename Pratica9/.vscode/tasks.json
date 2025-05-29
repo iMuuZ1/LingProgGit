@@ -10,10 +10,12 @@
                 "${workspaceFolder}\\src\\include\\empregado.hpp",
                 "${workspaceFolder}\\src\\include\\empresa.hpp",
                 "${workspaceFolder}\\src\\include\\pessoa.hpp",
+                "${workspaceFolder}\\src\\include\\microempreendedor.hpp",
                 "${workspaceFolder}\\src\\empregado.cpp",
                 "${workspaceFolder}\\src\\empresa.cpp",
                 "${workspaceFolder}\\src\\main.cpp",
                 "${workspaceFolder}\\src\\pessoa.cpp",
+                "${workspaceFolder}\\src\\microempreendedor.cpp",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
