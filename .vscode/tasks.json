@@ -50,8 +50,8 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${workspaceFolder}/src/include/*.h",
-                "${workspaceFolder}/src/*.c",
+                "${workspaceFolder}/Pratica9/src/include/*.h",
+                "${workspaceFolder}/Pratica9/src/*.c",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
